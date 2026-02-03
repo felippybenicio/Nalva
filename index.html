@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personalize Seu Estilo</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="mainHeader">
+        <div class="headerOverlay">
+            <div class="container headerContent">
+                
+                <div class="brandBlock">
+                    <img src="imagens/logo.png" class="logo" alt="Logo MyStamp">
+                    <div class="brandText">
+                        <h1>MyStamp</h1>
+                        <p class="tagline">Vista suas ideias. Beba suas memórias.</p>
+                    </div>
+                </div>
+
+                <div class="headerCall">
+                    <p class="headerDescription">
+                        Canecas e camisetas personalizadas criadas com suas fotos, frases e artes favoritas.
+                        Produtos únicos para presentear, celebrar momentos e mostrar sua personalidade.
+                    </p>
+                    <a href="#ctaSection" class="btnPrimary btnHeader">Quero Personalizar</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <main>
+        <!-- A - ATENÇÃO -->
+        <section class="heroSection">
+            <div class="container heroContent">
+                <div class="heroText">
+                    <h2>Transforme Momentos em Produtos Únicos</h2>
+                    <p>Transforme suas fotos, frases e artes favoritas em canecas e camisetas personalizadas cheias de significado. Crie produtos únicos, feitos do seu jeito, perfeitos para presentear ou expressar sua personalidade todos os dias.</p>
+                    <button class="btnPrimary" onclick="scrollToSection('ctaSection')">Criar Agora</button>
+                </div>
+                <div class="heroImage">
+                    <img src="imagens/caneca.jpg" alt="Caneca personalizada" />
+                    <p class="highlightText">
+                        Nossas <strong>canecas personalizadas</strong> são perfeitas para eternizar memórias,
+                        presentear alguém especial ou começar o dia com uma mensagem que é a sua cara.
+                    </p>
+                </div>
+                <div class="heroImage">
+                    <img src="imagens/camisas.jpg" alt="Camisas personalizada" />
+                    <p class="highlightText">
+                        Já as <strong>camisetas personalizadas</strong> permitem que você vista suas ideias,
+                        expresse sua personalidade e transforme qualquer look em algo exclusivo.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <!-- I - INTERESSE -->
+        <section class="interestSection">
+            <div class="container interestContent">
+                <h2>Por que personalizar com a gente?</h2>
+                <div class="benefitsGrid">
+                    <div class="benefitCard" id="benefitCard1">
+                        <h3>Alta Qualidade</h3>
+                        <p>Impressões duráveis, cores vivas e acabamento profissional.</p>
+                    </div>
+                    <div class="benefitCard" id="benefitCard2">
+                        <h3>Presente Perfeito</h3>
+                        <p>Surpreenda alguém especial com algo realmente único.</p>
+                    </div>
+                    <div class="benefitCard" id="benefitCard3">
+                        <h3>Envio para Todo Brasil</h3>
+                        <p>Receba sua personalização no conforto da sua casa.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- D - DESEJO -->
+        <section class="desireSection">
+            <div class="container desireContent">
+                <div class="desireImage">
+                    <img src="imagens/camisa-personalizada.jpg" alt="Camiseta personalizada" />
+                </div>
+                <div class="desireText">
+                    <h2>Use o que representa você</h2>
+                    <p>Frases criativas, fotos inesquecíveis ou artes exclusivas ganham vida em produtos feitos para representar sua história. Seu estilo, sua mensagem e sua personalidade estampados em algo único, feito especialmente para você.</p>
+                    <ul class="benefitsList">
+                        <li>✔ Ideal para presentes personalizados</li>
+                        <li>✔ Perfeito para datas comemorativas</li>
+                        <li>✔ Ótimo para surpreender alguém especial</li>
+                        <li>✔ Brindes criativos para empresas e eventos</li>
+                        <li>✔ Lembranças únicas de momentos especiais</li>
+                        <li>✔ Produtos exclusivos, feitos sob medida</li>
+                        <li>✔ Alta qualidade de impressão e acabamento</li>
+                        <li>✔ Opções para uso pessoal ou profissional</li>
+                        <li>✔ Ideais para aniversários, casamentos e formaturas</li>
+                        <li>✔ Perfeito para criar identidade de marca</li>
+                    </ul>
+                    <button class="btnSecondary" onclick="scrollToSection('ctaSection')">Quero o Meu</button>
+                </div>
+            </div>
+        </section>
+        <!-- PROVA SOCIAL -->
+        <section class="socialProofSection">
+            <div class="container">
+                <h2>Quem comprou, amou 💙</h2>
+                <div class="testimonialsGrid">
+                    <div class="testimonialCard">
+                        <video autoplay muted loop playsinline controls>
+                            <source src="videos/camiseta1.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos.
+                        </video>
+                        <p>“Simples, do jeito que eu queria. A frase ficou bem nítida e a qualidade da camisa me surpreendeu. Valeu muito a pena!”</p>
+                    </div>
+                    <div class="testimonialCard">
+                        <video autoplay muted loop playsinline controls>
+                            <source src="videos/caneca1.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos.
+                        </video>
+                        <p>“A impressão ficou perfeita, cores bem vivas! Dá até gosto de usar todo dia. Chegou bem embalada e sem nenhum defeito.”</p>
+                    </div>
+                    <div class="testimonialCard">
+                        <video autoplay muted loop playsinline controls>
+                            <source src="videos/camiseta2.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos.
+                        </video>
+                        <p>“Ficou linda demais! A estampa veio certinha como eu pedi e o tecido é super confortável. Já quero fazer outra!”</p>
+                    </div>
+                    <div class="testimonialCard">
+                        <video autoplay muted loop playsinline controls>
+                            <source src="videos/caneca2.mp4" type="video/mp4">
+                            Seu navegador não suporta vídeos.
+                        </video>
+                        <p>“Comprei pra dar de presente e ficou simplesmente perfeito. A caneca é linda e o acabamento é impecável. A pessoa que recebeu amou!”</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- A - AÇÃO (CTA) -->
+        <section class="ctaSection" id="ctaSection">
+            <div class="container ctaContent">
+                <h2>Pronto para criar algo único?</h2>
+                <p>Envie sua arte ou ideia e nós cuidamos do resto!</p>
+                <button class="btnPrimary btnLarge" onclick="handleCtaClick()">Quero Personalizar Agora</button>
+            </div>
+            <form class="customForm" id="form">
+                <h2 class="formTitle">Peça sua Personalização</h2>
+                <div class="inputGroup">
+                    <label for="userName">Nome</label>
+                    <input type="text" id="userName" name="userName" placeholder="Seu nome completo">
+                </div>
+                <div class="inputGroup">
+                    <label for="userPhone">Celular</label>
+                    <input type="tel" id="userPhone" name="userPhone" placeholder="(00) 00000-0000">
+                </div>
+                <div class="inputGroup">
+                    <p class="groupTitle">O que você quer personalizar?</p>
+                    <div class="radioGroup">
+                        <label class="radioOption">
+                            <input type="radio" name="productType" value="caneca">
+                            <span>Caneca</span>
+                        </label>
+                        <label class="radioOption">
+                            <input type="radio" name="productType" value="camisa">
+                            <span>Camisa</span>
+                        </label>
+                    </div>
+                </div>
+                <div class="inputGroup">
+                    <label for="orderDetails">Descreva sua ideia</label>
+                    <textarea id="orderDetails" name="orderDetails" rows="4" placeholder="Ex: Quero uma caneca com foto e a frase 'Melhor Mãe do Mundo'"></textarea>
+                </div>
+                <button type="submit" class="btnPrimary btnFull">Enviar Pedido</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="mainFooter">
+        <p>© 2026 Personaliza Store — Todos os direitos reservados</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
